@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+section {
+  background-image: url('car-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.title {
+  display: flex;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif ;
+  font-weight: 300;
+  cursor: pointer;
+}
+.title i {
+  padding-top: 0.8rem;
+  font-size: 1.9rem;
+}
+.title span {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 2.3rem;
+}
+
+section .container {
+  font-family: "Roboto", sans-serif;
+  padding: 11rem;
+}
+.nav ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav ul li:hover {
+  background-color: #3fcece;
+  transition: 0.5s;
+}
+/* ***************************************** Main **************************************** */
+section .container h1 b {
+  font-size: 3.5rem;
+  color: #3fcece;
+  font-weight: 900;
+}
+section .container p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+.active {
+  background-color: #3fcece;
+}
+button {
+  padding: 1rem;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+/* ********************************* Footer ***************************************** */
+
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+  width: 100vw;
+  height: 10vh;
+}
+footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+footer .row {
+  font-size: 1rem;
+  font-weight: 600;
+}
+footer span {
+  color: #3fcece;
+}
